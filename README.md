@@ -1,6 +1,9 @@
 # SketchLeagueBot
 Bot that plays Sketch League written in Python using pyautogui
 
+***Update: Unfortunately, as of 2/15/2020, Sketch League went offline :(***<br>
+*This project still features some useful image processing tools though!*
+
 <h2>Implementation Details</h2>
 
 Coded entirely in Python using the popular module, pyautogui. The bot scrapes the website for the image and downloads it. It processes the image into a lower resolution using average RGB value, and matches them to the closest palette colour (RGB difference) available in Sketch League. It then draws each pixel rapidly (roughly 100 pixels/second). 
