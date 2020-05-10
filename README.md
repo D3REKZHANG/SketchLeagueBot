@@ -3,7 +3,7 @@ Bot that plays Sketch League written in Python using pyautogui
 
 <h2>Implementation Details</h2>
 
-Coded entirely in Python using the popular module, pyautogui. The bot scrapes the website for the image and downloads it. It processes the image into a lower resolution with colours available in sketch league. It then draws each pixel rapidly (roughly 100 pixels/second). 
+Coded entirely in Python using the popular module, pyautogui. The bot scrapes the website for the image and downloads it. It processes the image into a lower resolution using average RGB value, and matches them to the closest palette colour (RGB difference) available in Sketch League. It then draws each pixel rapidly (roughly 100 pixels/second). 
 
 To set up the bot, run the file *inital_setup.py* and click each of the colours on the palette starting with the top left colour and moving down each column (top to bottom first before moving to next column).
 
